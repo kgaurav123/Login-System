@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Simple Auth System</title>
+</head>
+<body style="background-color: cyan">
+    {% block content %}
+        <h1>Welcome Home , from Homepage</h1>
+
+
+    <a href="{% url 'login_url' %}" style="font-size: 30px;padding-right: 20px;">Login</a>
+    <a href="{% url 'register_url' %}" style="font-size: 30px">Register</a>
+    <a href="{% url 'password_change_url' %}" style="font-size: 30px">Change Password</a>
+
+{% endblock %}
+</body>
+</html>
