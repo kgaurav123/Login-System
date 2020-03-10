@@ -1,2 +1,2 @@
 # Login-System
-This is login system
+It is a login system which uses django to store and retrieve data of users for login/signup.
